@@ -1,0 +1,8 @@
+transformers>=4.26.1
+openai>=0.27.1
+pulp
+dataclasses
+dataclasses_json
+scikit-learn
+scipy
+sentencepiece

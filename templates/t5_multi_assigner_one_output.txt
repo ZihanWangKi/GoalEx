@@ -1,0 +1,23 @@
+In this task you will need to check if a text matches some descriptions and return the most possible answer as an index, surrounded with []. Do not give any explanations. For example,
+
+DESCRIPTIONS:
+0. is a quesiton about visa
+1. is meant for greetings
+2. is a complex question
+
+TEXT:
+How do I apply for visa?
+
+(Your response should be)
+RESPONSE:
+[0]
+
+Here is the case that you will need to solve. Again, you should return the most possible answer as an index, surrounded with [], without explanations. 
+
+DESCRIPTIONS:
+{descriptions_with_index} 
+
+TEXT:
+{text}
+
+RESPONSE:

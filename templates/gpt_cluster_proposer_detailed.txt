@@ -1,0 +1,29 @@
+In this task you will need to come up with categories to group the text together based on a goal, where each category can be described with a natural language predictate. For example
+
+1. How are you doing?
+2. How do I apply for visa?
+3. Isn't it ridiculous?
+4. How to get there by bus?
+5. How is it going?
+6. Aren't technological advancement good for the humanity?
+
+Here is our goal: I want to cluster the questions based on their functionalities. Your responses are:
+- "employs a rhetorical question; specifically, the text contains a question that is not intended to be answered directly but rather to make a point. For example, 'Is the sky blue?'"
+- "serves as a greeting; specifically, the text functions to welcome or acknowledge someone. For example, 'Hello, how are you today?'"
+- "seeks practical information; specifically, the text requests useful data or advice to address a specific issue. For example, 'What is the best way to remove a stain from a shirt?'"
+
+(note that all of them need to be natural language predicates that can be validated on individual samples)
+
+Here are some texts:
+
+{samples_in_prompt}
+
+Here is our goal: {goal} Please suggest me a few descriptions, one in a line, starting with "-" and surrounded by quotes"". In terms of formatting, each of them needs to be a predicate about a text, followed by an explanation and an example, for example:
+- "uses double negation; specifically, there is a sentence in the text that uses negation twice. For example, 'the pilot did not never had an accident'"
+- "has a conservative stance; specifically, the overall text exhibits a conservative political stance (e.g. pro-life, deregulation, etc). For example, 'Fetus is sentient so we should not abort.'"
+
+Do not output anything else. (Note that the examples might not be goal related, and your response should be both formatted correct as above and related to the goal.)
+{example_description_in_prompt}
+
+Again, here's the goal: {goal}. Your responses are:
+- "

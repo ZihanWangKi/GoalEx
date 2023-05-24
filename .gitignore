@@ -1,0 +1,12 @@
+data/
+processed_data_old
+!src/data/
+xclass*
+.ipynb_checkpoints
+explore.ipynb
+experiments*
+results
+
+# working on
+__pycache__ 
+scratch.txt

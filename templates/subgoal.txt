@@ -1,0 +1,5 @@
+{orig_goal} Now we know that the above text fall into the below category: 
+
+ Category: {parent}
+
+and I want to create finer-grained clusters descriptions that fall into this category.
